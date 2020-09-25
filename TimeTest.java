@@ -24,7 +24,8 @@ public class TimeTest {
 		System.out.println(date2);
 		
 		
-
+//just add a comment for branch_1
+//add a comment for hotfix_1
 	    String userTimeZone = "UTC Time";
 		TimeZone customerTimeZone = TimeZone.getTimeZone(userTimeZone);
 		long startDateTime = DateFormatUtil.parseDateTimeZone(date2, DateFormatUtil.DATE_FORMAT_WITH_HYPHEN, customerTimeZone).getTime();
