@@ -24,7 +24,7 @@ public class TimeTest {
 		System.out.println(date2);
 		
 		
-
+//just add a comment
 	    String userTimeZone = "UTC Time";
 		TimeZone customerTimeZone = TimeZone.getTimeZone(userTimeZone);
 		long startDateTime = DateFormatUtil.parseDateTimeZone(date2, DateFormatUtil.DATE_FORMAT_WITH_HYPHEN, customerTimeZone).getTime();
